@@ -301,7 +301,7 @@ void gecerliHamleler(int satir, int sutun) {
 
         }
 
-        case 's': //Kalenin oynayabileceği hamleleri gösteren case
+        case 's': //Şahın oynayabileceği hamleleri gösteren case
         case 'S':
             if(tahta[satir + 1][sutun] == '-')   //Aşağıya yapılan hamle
                 tahta[satir + 1][sutun] = '*';
